@@ -14,7 +14,7 @@ var options = {
 app.use(express.json());
 
 let corOption ={
-    origin:['https://rslsofttech.com','https://rslsofttech.com/admin','https://admin.rslsofttech.com','https://demo.rslsofttech.com'],
+    origin:['https://rslsofttech.com','https://rslsofttech.com/admin','https://admin.rslsofttech.com','https://cicd.rslsofttech.com'],
     methods:["GET","POST","PUT","DELETE"],
   }
   app.use(cors(corOption));
