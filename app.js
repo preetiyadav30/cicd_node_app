@@ -23,7 +23,7 @@ let corOption ={
 
   app.use(indexrouter)
 
-app.get("/", (req, res) => {
+app.get("/cicd", (req, res) => {
   res.send(
     `<h1 style='text-align: center'>
           Wellcome to my first Automatic Deployment With Github Actions
