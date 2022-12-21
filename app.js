@@ -26,7 +26,7 @@ let corOption ={
 app.get("/", (req, res) => {
   res.send(
     `<h1 style='text-align: center'>
-          Wellcome to my first Automatic Deployment With Github Actions
+          Wellcome to my first Automatic Deployment With Github Actions and aapanel
           <br><br>
           <b style="font-size: 182px;">😃👻</b>
       </h1>`
