@@ -20,7 +20,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.get("/", (req, res) => {
+app.get("/cicdpipeline", (req, res) => {
   res.send(
     `<h1 style='text-align: center'>
           Wellcome to RSL Backend 
