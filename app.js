@@ -24,11 +24,20 @@ app.use(function (req, res, next) {
 });
 
 
+<<<<<<< HEAD
 // simple route
 app.get("/", (req, res) => {
   res.send(
     `<h1 style='text-align: center'>
           Wellcome to Automatic Deployment With Github Actions
+=======
+  app.use(indexrouter)
+
+app.get("/", (req, res) => {
+  res.send(
+    `<h1 style='text-align: center'>
+          Wellcome to my first Automatic Deployment With Github Actions and aapanel
+>>>>>>> 77ef77c64b466752cc32adab438aec988cab3fe0
           <br><br>
           <b style="font-size: 182px;">😃👻</b>
       </h1>`
