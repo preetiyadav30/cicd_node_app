@@ -5,8 +5,8 @@ const https = require("https");
 const app = express();
 const port = 9000;
 var options = {
-  key: fs.readFileSync('../ssl/privatekey.key'),
-  cert: fs.readFileSync('../ssl/certificate.pem'),
+  key: fs.readFileSync('./ssl/privatekey.key'),
+  cert: fs.readFileSync('./ssl/certificate.pem'),
  
 };
 app.use(express.json());
